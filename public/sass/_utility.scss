@@ -1,0 +1,41 @@
+
+@font-face {
+  font-family: 'Junction';
+  src: url('../font/junction-regular.woff2') format('woff2');
+}
+
+* {
+  font-family: 'Junction';
+}
+body {
+  background-color: rgb(25, 36, 111);
+color: white;
+
+}
+.myatm-button{
+  border-radius: 10%;
+  color: black;
+  font-size:2em;
+  width: 90%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2px;
+  margin-top: 2px;
+  text-align: center;
+}
+.option-button{
+  background-color: rgba(43, 43, 87, 0.7);
+  border-radius: 10%;
+  color: white;
+  font-size:2em;
+  width: 90%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2px;
+  margin-top: 2px;
+  text-align: center;
+  height: 3em;
+  border: 1.5px solid rgba(30,30,65,0.8);
+}

@@ -1,0 +1,67 @@
+@import 'utility' ;
+
+  .welcome {
+    text-align: center;
+    font-size: 2.5em;
+  }
+  .select-transaction {
+    text-align: center;
+    font-size: 3.5em;
+  }
+  .main-menu-label {
+    opacity: 0;
+  }
+  #checking-button, #stamps-button {
+    background-color: gold;
+  }
+  #stamps-button {
+    margin-top: 5px;
+  }
+  #stamp-image {
+    width: 2.5em;
+
+  }
+  #remove {
+    background-color: red;
+    margin-bottom: 1.7em;
+  }
+  .logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+@media screen and (min-width: 40em){
+  .option-button, .myatm-button{
+    width: 35%;
+  }
+  .container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+
+a:hover{
+  color: white;
+}
+
+}
+@media screen and (min-width: 64em){
+.option-button, .myatm-button{
+  width: 30%;
+}
+  .container{
+  display: flex;
+  flex-wrap: wrap;
+    flex-direction: row;
+}
+  .logo{
+    margin-top: 0;
+  }
+  a{
+    color: white;
+  }
+  a:hover{
+    color: black;
+  }
+}
