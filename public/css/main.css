@@ -71,7 +71,7 @@ body {
     flex-direction: row; }
 
   a:hover {
-    color: white; } }
+    color: black; } }
 @media screen and (min-width: 64em) {
   .option-button, .myatm-button {
     width: 30%; }
